@@ -23,7 +23,7 @@ header div li:hover {
 #div_h1 {
   margin: 5%;
   position: relative;
-  font-size: 20px;
+  font-size: 40px;
 }
 #div_h1 li {
   display: inline-block;
@@ -245,10 +245,6 @@ footer {
   #p_about {
     font-size: 40px;
   }
-  #div_h1 {
-    font-size: 40px;
-    margin-top: 20px;
-  }
   #div_n1 {
     font-size: 15px;
   }
@@ -256,17 +252,16 @@ footer {
     margin: 5%;
   }
   nav h1{
-    font-size: 50px;
+    font-size: 40px;
+  }
+  #div_n2 li a {
+    font-size: 30px;
   }
 }
-@media (min-width: 900px) {
+@media (max-width: 1500px) {
   
-  #div_h1 {
-    font-size: 40px;
-    margin-top: 20px;
+  nav{
+    height: 80px;
   }
-
-  #backgroud1 {
-    height: 700px;
-  }
+  
 }
