@@ -7,7 +7,7 @@
 header {
   background-color: red;
   width: 100%;
-  height: 50px;
+  height: 100px;
   color: white;
 }
 header div {
@@ -63,7 +63,7 @@ nav {
   margin: 2% 5%;
 }
 #div_n2 {
-  margin-right: 5%;
+  width: auto;
   display: flex;
   float: right;
 }
@@ -264,7 +264,7 @@ footer {
     font-size: 20px;
   }
   header {
-    height: 70px;
+    height: 100px;
   }
   #div_h1 {
     font-size: 40px;
